@@ -8,6 +8,7 @@ Original file is located at
 """
 
 name=input("What is your name? ").title()
+Sudents_course=input("What is your student cousre? ").title()
 Total_classes=int(input("How many classes were held? "))
 Classes_attended=int(input("How many classes did you attend? "))
 percentage=(Classes_attended/Total_classes)*100
